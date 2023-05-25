@@ -2,6 +2,7 @@ package com.example.pruebaenum;
 
 public enum ListasController {
 
+
     INSTANCE;
 
    private final Listas listas;
@@ -13,4 +14,6 @@ public enum ListasController {
     public Listas getListas() {
         return listas;
     }
+
+
 }
